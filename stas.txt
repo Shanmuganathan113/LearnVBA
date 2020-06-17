@@ -1,0 +1,18 @@
+button	<button onclick="myFunction('#BUTTON_NAME#')" class="pure-button pure-button-primary">#BUTTON_NAME#</button>
+div	"<div id=""#BUTTON_NAME#"" style=""display: none;padding-left: 10%;padding-right: 10%;"">
+  <h2>#BUTTON_NAME#</h2>
+   #CONTENT#
+  </div>"
+template	"<!DOCTYPE html>
+<html>
+<head>
+<script src=""../html/js/myFunctions.js""></script>
+<link rel=""stylesheet"" href=""../html/css/myCSS.css""/>
+
+</head>
+<body>
+ #BUTTON_NAME#
+ #CONTENT#
+</body>
+</html>"
+	
